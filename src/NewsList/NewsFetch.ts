@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const NewsFetch = async (category: string, page: number) => {
   let newsUrl = "";
-  const apiKey = "#########################";
+  const apiKey = "4bc6f86a0db8496f96ef6228c91d2849";
   const pageSize = 5;
 
   if (category === "all") {
